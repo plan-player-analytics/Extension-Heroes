@@ -6,7 +6,7 @@
 
     <groupId>com.djrapitops</groupId>
     <artifactId>Extension-template</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>R0.1</version>
     <build>
         <plugins>
             <plugin>
@@ -29,10 +29,10 @@
     <repositories>
         <!-- Platforms -->
 
-        <!--        <repository>-->
-        <!--            <id>spigot-repo</id>-->
-        <!--            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>-->
-        <!--        </repository>-->
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
         <!--        <repository>-->
         <!--            <id>sponge-repo</id>-->
         <!--            <url>https://repo.spongepowered.org/repository/maven-public/</url>-->
@@ -46,6 +46,10 @@
         <!--            <url>https://repo.velocitypowered.com/snapshots/</url>-->
         <!--        </repository>-->
 
+        <repository>
+            <id>heroes-repo</id>
+            <url>http://nexus.hc.to/content/repositories/pub_releases/</url>
+        </repository>
         <repository>
             <id>plan-repo</id>
             <url>https://repo.playeranalytics.net/releases</url>
@@ -61,21 +65,21 @@
         </dependency>
 
         <!-- Plugin API Dependency -->
-        <!--        <dependency>-->
-        <!--            <groupId></groupId>-->
-        <!--            <artifactId></artifactId>-->
-        <!--            <version></version>-->
-        <!--            <scope>provided</scope>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>com.herocraftonline.heroes</groupId>
+            <artifactId>heroes-stripped</artifactId>
+            <version>4dd3dd85</version>
+            <scope>provided</scope>
+        </dependency>
 
         <!-- Platforms -->
 
-        <!--        <dependency>-->
-        <!--            <groupId>org.spigotmc</groupId>-->
-        <!--            <artifactId>spigot-api</artifactId>-->
-        <!--            <version>1.16.5-R0.1-SNAPSHOT</version>-->
-        <!--            <scope>provided</scope>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
         <!--        <dependency>-->
         <!--            <groupId>org.spongepowered</groupId>-->
         <!--            <artifactId>spongeapi</artifactId>-->
