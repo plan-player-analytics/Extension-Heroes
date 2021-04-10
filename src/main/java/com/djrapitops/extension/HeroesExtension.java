@@ -50,7 +50,7 @@ import java.util.UUID;
  *
  * @author AuroraLS3
  */
-@PluginInfo(name = "", iconName = "", iconFamily = Family.SOLID, color = Color.NONE)
+@PluginInfo(name = "Heroes", iconName = "book", iconFamily = Family.SOLID, color = Color.BLUE)
 @TabInfo(tab = "Skills", iconName = "book", elementOrder = ElementOrder.VALUES)
 public class HeroesExtension implements DataExtension {
 
