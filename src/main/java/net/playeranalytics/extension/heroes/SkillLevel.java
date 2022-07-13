@@ -1,4 +1,4 @@
-package com.djrapitops.extension;
+package net.playeranalytics.extension.heroes;
 
 import java.util.Objects;
 
